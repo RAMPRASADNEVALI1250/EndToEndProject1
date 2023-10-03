@@ -1,3 +1,5 @@
+Before troubleshooting any problems **reboot** ur system and check if anything works(classic) 
+
 1. Installing Jenkins
      When installing jenkins gotthe below error
    **YUM updates fail with: [Errno 14] curl#60 - "Peer's Certificate has expired."**
