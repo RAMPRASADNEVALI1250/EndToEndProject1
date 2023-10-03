@@ -9,6 +9,8 @@ Install Java,Jenkins,git and neccessory packages
     wget -O /etc/yum.repos.d/jenkins.repo \
     https://pkg.jenkins.io/redhat-stable/jenkins.repo
 
+    yum install deltarpm
+
     rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
     
     yum upgrade
@@ -18,7 +20,7 @@ Install Java,Jenkins,git and neccessory packages
     systemctl daemon-reload
 
 
-3. Install git
+4. Install git
     
     yum install git
 
