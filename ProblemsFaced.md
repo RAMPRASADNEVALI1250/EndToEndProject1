@@ -14,3 +14,8 @@ Before troubleshooting any problems **reboot** ur system and check if anything w
    a. tried using ufw package - ufw enable,allow etc
    b. but the default firewall manager worked **firewall-cmd --add-port=8080/tcp**  -- with this I am able to access the
         jenkins console
+3. Java version
+   Initially installed java 11 before installing maven
+   but when maven is installed using **yum install maven** it automatically downloaded java-8 and overridden java-11
+   overcame this by setting java-11 as default, setting JAVA_HOME and setting maven to use java 11
+   
