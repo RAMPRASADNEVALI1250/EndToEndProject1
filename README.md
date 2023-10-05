@@ -8,5 +8,3 @@ End to End DevOps Project using below Tools
 5. Docker
 6. Kubernetes
 7. AWS
-
-<img width="864" alt="List of Tools" src="image.png">
