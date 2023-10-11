@@ -12,8 +12,7 @@ Before troubleshooting any problems **reboot** ur system and check if anything w
    When working on the VM(created via virtual box) uses Bridged adoptor
    since jenkins runs on port 8080 by default - not able to access jenkins console using vm ip:8080
    a. tried using ufw package - ufw enable,allow etc
-   b. but the default firewall manager worked **firewall-cmd --permanent --add-port=8080/tcp
-**  -- with this I am able to access the
+   b. but the default firewall manager worked **firewall-cmd --permanent --add-port=8080/tcp**  once enabled use **firewall-cmd --reload** to reload the firewalld network, use **firewall-cmd --list-all** to see list of aloowed ports(firewall)-- with this I am able to access the
         jenkins console
 3. Java version
    Initially installed java 11 before installing maven
